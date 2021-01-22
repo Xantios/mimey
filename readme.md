@@ -102,5 +102,9 @@ $mimes = new \Mimey\MimeTypes($builder->getMapping());
 Compatible with PHP >= 5.4.
 
 ```
-composer require ralouphie/mimey
+composer require xantios/mimey
 ```
+
+## Credits
+
+Original version created by rodolfoberrios
