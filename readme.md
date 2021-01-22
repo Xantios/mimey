@@ -4,7 +4,7 @@ Mimey
 PHP package for converting file extensions to MIME types and vice versa.
 
 [![Build Status](https://travis-ci.org/xantios/mimey.svg?branch=master)](https://travis-ci.org/xantios/mimey)
-[![Maintainability]](https://api.codeclimate.com/v1/badges/1f8e322d2c73a16a1830/maintainability)](https://codeclimate.com/github/Xantios/mimey/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1f8e322d2c73a16a1830/maintainability)](https://codeclimate.com/github/Xantios/mimey/)
 [![Latest Stable Version](https://img.shields.io/packagist/v/xantios/mimey.svg)](https://packagist.org/packages/xantios/mimey)
 [![Downloads per Month](https://img.shields.io/packagist/dm/xantios/mimey.svg)](https://packagist.org/packages/xantios/mimey)
 [![License](https://img.shields.io/packagist/l/xantios/mimey.svg)](https://packagist.org/packages/ralouphie/mimey)
