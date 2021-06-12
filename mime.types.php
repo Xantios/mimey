@@ -3000,6 +3000,10 @@
     array (
       0 => 'audio/ogg',
     ),
+    'opus' => 
+    array (
+      0 => 'audio/ogg',
+    ),
     's3m' => 
     array (
       0 => 'audio/s3m',
@@ -6525,6 +6529,7 @@
       0 => 'oga',
       1 => 'ogg',
       2 => 'spx',
+      3 => 'opus',
     ),
     'audio/s3m' => 
     array (
