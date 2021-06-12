@@ -96,6 +96,14 @@ $builder = \Mimey\MimeMappingBuilder::load($cache_file_path);
 $mimes = new \Mimey\MimeTypes($builder->getMapping());
 ```
 
+#### Programmatically or manually add custom type mappings
+
+You can rename the included `mime.types.custom.example` to `mime.types.custom` and recompile. the custom entries always take precedence over built-in defitions.
+
+#### Updating (advanced)
+
+In case there is a update in the httpd defined types you can run `bin/pull.php` in this repo to pull new mime files and compile them
+
 ## Install
 
 Compatible with PHP >= 5.4.
