@@ -3,7 +3,7 @@ Mimey
 
 PHP package for converting file extensions to MIME types and vice versa.
 
-[![Build Status](https://travis-ci.org/xantios/mimey.svg?branch=master)](https://travis-ci.org/xantios/mimey)
+[![Build Status](https://www.travis-ci.com/Xantios/mimey.svg?branch=master)](https://travis-ci.org/xantios/mimey)
 [![Maintainability](https://api.codeclimate.com/v1/badges/1f8e322d2c73a16a1830/maintainability)](https://codeclimate.com/github/Xantios/mimey/)
 [![Latest Stable Version](https://img.shields.io/packagist/v/xantios/mimey.svg)](https://packagist.org/packages/xantios/mimey)
 [![Downloads per Month](https://img.shields.io/packagist/dm/xantios/mimey.svg)](https://packagist.org/packages/xantios/mimey)
@@ -95,6 +95,14 @@ The file can then be loaded to avoid overhead of repeated `$builder->add(...)` c
 $builder = \Mimey\MimeMappingBuilder::load($cache_file_path);
 $mimes = new \Mimey\MimeTypes($builder->getMapping());
 ```
+
+#### Programmatically or manually add custom type mappings
+
+You can rename the included `mime.types.custom.example` to `mime.types.custom` and recompile. the custom entries always take precedence over built-in defitions.
+
+#### Updating (advanced)
+
+In case there is a update in the httpd defined types you can run `bin/pull.php` in this repo to pull new mime files and compile them
 
 ## Install
 

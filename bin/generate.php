@@ -3,7 +3,13 @@
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-$mime_types_custom_text = file_get_contents(dirname(__DIR__) . '/mime.types.custom');
+$custom = dirname(__DIR__) . '/mime.types.custom';
+if(file_exists($custom)) {
+    $mime_types_custom_text = file_get_contents(dirname(__DIR__) . '/mime.types.custom');
+} else {
+    $mime_types_custom_text = "";
+}
+
 $mime_types_text = file_get_contents(dirname(__DIR__) . '/mime.types');
 
 $generator = new \Mimey\MimeMappingGenerator($mime_types_custom_text . PHP_EOL . $mime_types_text);

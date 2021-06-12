@@ -1,84 +1,6 @@
 <?php return array (
   'mimes' => 
   array (
-    'wof' => 
-    array (
-      0 => 'application/font-woff',
-    ),
-    'php' => 
-    array (
-      0 => 'application/php',
-      1 => 'application/x-httpd-php',
-      2 => 'application/x-httpd-php-source',
-      3 => 'application/x-php',
-      4 => 'text/php',
-      5 => 'text/x-php',
-    ),
-    'otf' => 
-    array (
-      0 => 'application/x-font-otf',
-      1 => 'font/otf',
-    ),
-    'ttf' => 
-    array (
-      0 => 'application/x-font-ttf',
-      1 => 'font/ttf',
-    ),
-    'ttc' => 
-    array (
-      0 => 'application/x-font-ttf',
-      1 => 'font/collection',
-    ),
-    'zip' => 
-    array (
-      0 => 'application/x-gzip',
-      1 => 'application/zip',
-    ),
-    'amr' => 
-    array (
-      0 => 'audio/amr',
-    ),
-    'mp3' => 
-    array (
-      0 => 'audio/mpeg',
-    ),
-    'mpga' => 
-    array (
-      0 => 'audio/mpeg',
-    ),
-    'mp2' => 
-    array (
-      0 => 'audio/mpeg',
-    ),
-    'mp2a' => 
-    array (
-      0 => 'audio/mpeg',
-    ),
-    'm2a' => 
-    array (
-      0 => 'audio/mpeg',
-    ),
-    'm3a' => 
-    array (
-      0 => 'audio/mpeg',
-    ),
-    'jpg' => 
-    array (
-      0 => 'image/jpeg',
-    ),
-    'jpeg' => 
-    array (
-      0 => 'image/jpeg',
-    ),
-    'jpe' => 
-    array (
-      0 => 'image/jpeg',
-    ),
-    'bmp' => 
-    array (
-      0 => 'image/x-ms-bmp',
-      1 => 'image/bmp',
-    ),
     'ez' => 
     array (
       0 => 'application/andrew-inset',
@@ -2952,6 +2874,10 @@
     array (
       0 => 'application/yin+xml',
     ),
+    'zip' => 
+    array (
+      0 => 'application/zip',
+    ),
     'adp' => 
     array (
       0 => 'audio/adpcm',
@@ -2988,6 +2914,30 @@
     array (
       0 => 'audio/mp4',
     ),
+    'mpga' => 
+    array (
+      0 => 'audio/mpeg',
+    ),
+    'mp2' => 
+    array (
+      0 => 'audio/mpeg',
+    ),
+    'mp2a' => 
+    array (
+      0 => 'audio/mpeg',
+    ),
+    'mp3' => 
+    array (
+      0 => 'audio/mpeg',
+    ),
+    'm2a' => 
+    array (
+      0 => 'audio/mpeg',
+    ),
+    'm3a' => 
+    array (
+      0 => 'audio/mpeg',
+    ),
     'oga' => 
     array (
       0 => 'audio/ogg',
@@ -2997,6 +2947,10 @@
       0 => 'audio/ogg',
     ),
     'spx' => 
+    array (
+      0 => 'audio/ogg',
+    ),
+    'opus' => 
     array (
       0 => 'audio/ogg',
     ),
@@ -3144,6 +3098,18 @@
     array (
       0 => 'chemical/x-xyz',
     ),
+    'ttc' => 
+    array (
+      0 => 'font/collection',
+    ),
+    'otf' => 
+    array (
+      0 => 'font/otf',
+    ),
+    'ttf' => 
+    array (
+      0 => 'font/ttf',
+    ),
     'woff' => 
     array (
       0 => 'font/woff',
@@ -3151,6 +3117,10 @@
     'woff2' => 
     array (
       0 => 'font/woff2',
+    ),
+    'bmp' => 
+    array (
+      0 => 'image/bmp',
     ),
     'cgm' => 
     array (
@@ -3167,6 +3137,18 @@
     'ief' => 
     array (
       0 => 'image/ief',
+    ),
+    'jpeg' => 
+    array (
+      0 => 'image/jpeg',
+    ),
+    'jpg' => 
+    array (
+      0 => 'image/jpeg',
+    ),
+    'jpe' => 
+    array (
+      0 => 'image/jpeg',
     ),
     'ktx' => 
     array (
@@ -3960,70 +3942,6 @@
   ),
   'extensions' => 
   array (
-    'application/font-woff' => 
-    array (
-      0 => 'wof',
-    ),
-    'application/php' => 
-    array (
-      0 => 'php',
-    ),
-    'application/x-font-otf' => 
-    array (
-      0 => 'otf',
-    ),
-    'application/x-font-ttf' => 
-    array (
-      0 => 'ttf',
-      1 => 'ttc',
-    ),
-    'application/x-gzip' => 
-    array (
-      0 => 'zip',
-    ),
-    'application/x-httpd-php' => 
-    array (
-      0 => 'php',
-    ),
-    'application/x-httpd-php-source' => 
-    array (
-      0 => 'php',
-    ),
-    'application/x-php' => 
-    array (
-      0 => 'php',
-    ),
-    'audio/amr' => 
-    array (
-      0 => 'amr',
-    ),
-    'audio/mpeg' => 
-    array (
-      0 => 'mp3',
-      1 => 'mpga',
-      2 => 'mp2',
-      3 => 'mp2a',
-      4 => 'm2a',
-      5 => 'm3a',
-    ),
-    'image/jpeg' => 
-    array (
-      0 => 'jpg',
-      1 => 'jpeg',
-      2 => 'jpe',
-    ),
-    'image/x-ms-bmp' => 
-    array (
-      0 => 'bmp',
-    ),
-    'text/php' => 
-    array (
-      0 => 'php',
-    ),
-    'text/x-php' => 
-    array (
-      0 => 'php',
-    ),
     'application/andrew-inset' => 
     array (
       0 => 'ez',
@@ -6520,11 +6438,21 @@
       0 => 'm4a',
       1 => 'mp4a',
     ),
+    'audio/mpeg' => 
+    array (
+      0 => 'mpga',
+      1 => 'mp2',
+      2 => 'mp2a',
+      3 => 'mp3',
+      4 => 'm2a',
+      5 => 'm3a',
+    ),
     'audio/ogg' => 
     array (
       0 => 'oga',
       1 => 'ogg',
       2 => 'spx',
+      3 => 'opus',
     ),
     'audio/s3m' => 
     array (
@@ -6697,6 +6625,12 @@
     'image/ief' => 
     array (
       0 => 'ief',
+    ),
+    'image/jpeg' => 
+    array (
+      0 => 'jpeg',
+      1 => 'jpg',
+      2 => 'jpe',
     ),
     'image/ktx' => 
     array (
